@@ -6,15 +6,13 @@ A simple todo app
 
 run: npm install
 
-## Run app
-
-npx knex migrate:make init --migrations-directory db/migrations
-
-npx knex migrate:latest --knexfile db/knexfile.js
 
 ## Run app
 
 node index.js || nodemon init
+
+## Run test
+ npm run test
 
 ## Trace warnings
 
