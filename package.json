@@ -1,0 +1,33 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "A simple todo app",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "npx knex migrate:latest --knexfile ./db/knexfile.js",
+    "dev": "nodemon index.js",
+    "test": "mocha test/index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "pg": "^8.7.1",
+    "bookshelf": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bukunmialuko/todo-app-shade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bukunmialuko/todo-app-shade/issues"
+  },
+  "homepage": "https://github.com/bukunmialuko/todo-app-shade#readme"
+}
