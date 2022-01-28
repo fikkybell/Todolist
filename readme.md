@@ -9,7 +9,7 @@ run: npm install
 
 ## Run app
 
-node index.js || npm start
+node index.js 
 
 ## Run test
 
